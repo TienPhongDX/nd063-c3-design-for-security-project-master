@@ -1,0 +1,19 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+Compliance violations, terrascan
+
+### Example vulnerability
+Compliance violations, terrascan
+
+##Scan AMI’s or containers for OS vulnerabilities
+Docker scan, Falco, Clair
+
+### Example vulnerability
+SSH root access with login
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+AWS Config, Inspector, GuardDuty
+
+### Example vulnerability
+Ec2 instance hijacked

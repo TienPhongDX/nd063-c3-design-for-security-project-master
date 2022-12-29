@@ -1,0 +1,10 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+resources inside VPC must go out to the internet with access to S3 resources, it is recommended to use VPC Endpoint to minimize potential from outside the internet
+
+# Poor practice 2
+InstanceRolePolicy-C3 is entitled to full action S3 and full resouce, so limit S3 actions and resources to avoid leaking other buckets
+
+
+
